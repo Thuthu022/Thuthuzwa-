@@ -17,9 +17,9 @@ header {
 
 
 .container {
-    padding: 10px 5%; /* Adjusted padding for smaller screens */
-    max-width: 1200px; /* Added maximum width for better desktop layout */
-    margin: 0 auto; /* Center align the content */
+    padding: 10px 5%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
 }
 
 nav {
@@ -71,7 +71,7 @@ nav ul li a:hover::after {
 }
 
 #about {
-    padding: 80px 0 0 0; /* Adjusted padding for smaller screens */
+    padding: 80px 0 0 0; 
     color: whitesmoke;
     font-size: large;
     margin-bottom: 0;
@@ -85,7 +85,7 @@ nav ul li a:hover::after {
 
 
 .row {
-    /* display: flex; */
+    
     justify-content: space-between;
     flex-wrap: wrap;
 }
@@ -96,7 +96,7 @@ nav ul li a:hover::after {
 
 .about-col-1 img {
     width: 60%;
-    /* height:10% ; */
+   
     border-radius: 10px;
 }
 
@@ -105,20 +105,20 @@ nav ul li a:hover::after {
 }
 
 .sub {
-    font-size: 40px; /* Adjusted font size for smaller screens */
+    font-size: 40px; 
     font-weight: 600;
     color: rgb(238, 19, 183);
 }
 
 #skills {
-    padding: 50px 0; /* Adjusted padding for smaller screens */
+    padding: 50px 0; 
 }
 
 .skills-list,
 .hobbies-list {
     list-style-type: disc;
     color: aliceblue;
-    margin-top: 30px; /* Adjusted margin for smaller screens */
+    margin-top: 30px; 
 }
 
 .contact-top {
@@ -192,6 +192,19 @@ form .btn {
     flex-wrap: wrap;
 }
 
+
+.about-link,
+.skills-link,
+.contact-link {
+    color: rgb(0, 200, 255); 
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    font-size: 120%;
+    
+}
+
+
+
 .hobbies-list img {
     width: 100%;
     height: auto;
@@ -201,17 +214,17 @@ form .btn {
 
 .section-divider {
     height: 5px;
-    background: linear-gradient(to right, pink, #ff69b4); /* Gradient background */
-    animation: blink 1s infinite alternate; /* Blinking animation */
+    background: linear-gradient(to right, pink, #ff69b4); 
+    animation: blink 1s infinite alternate; 
 }
 
 .section-divider {
-    height: 5px; /* Adjust thickness as needed */
-    background: repeating-linear-gradient(90deg, pink, pink 5px, transparent 5px, transparent 10px); /* Dotted line */
+    height: 5px; 
+    background: repeating-linear-gradient(90deg, pink, pink 5px, transparent 5px, transparent 10px); 
 }
 
 
-/* Animation keyframes */
+
 @keyframes blink {
     0% {
         opacity: 0;
@@ -221,7 +234,7 @@ form .btn {
     }
 }
 
-/* Media Queries */
+
 @media only screen and (max-width: 600px) {
     .container {
         padding: 10px 5%;
